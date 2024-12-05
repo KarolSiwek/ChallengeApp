@@ -1,5 +1,4 @@
 ﻿using ChallengeApp;
-using System.Reflection.Metadata;
 
 Employee employee1 = new Employee("Zbyszek", "Kieliszek", 30, 0);
 Employee employee2 = new Employee("Anka", "Szklanka", 31, 0);
@@ -9,7 +8,7 @@ employee1.AddScore(6);
 employee1.AddScore(3);
 employee1.AddScore(8);
 employee1.AddScore(7);
-employee1.AddScore(5); //26
+employee1.AddScore(5); //29
 
 employee2.AddScore(2);
 employee2.AddScore(9);
